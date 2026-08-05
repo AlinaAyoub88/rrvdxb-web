@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --color-goldAccent: #D4AF37;
+  --color-goldHover: #B5922F;
+  --color-premiumBlack: #1A1A1A;
+  --color-softGray: #F9F9F9;
+  --color-darkGray: #555555;
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+}
