@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import BrandsPage from './pages/BrandsPage';
+import FAQsPage from './pages/FAQsPage';
 
 export default function App() {
   return (
@@ -18,6 +19,9 @@ export default function App() {
         <Link to="/brands" className="hover:text-amber-400 transition-colors">
           Brands
         </Link>
+        <Link to="/faqs" className="hover:text-amber-400 transition-colors">
+          FAQs
+        </Link>
       </nav>
 
       {/* Routes */}
@@ -26,6 +30,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/brands" element={<BrandsPage />} />
+        <Route path="/faqs" element={<FAQsPage />} />
       </Routes>
     </Router>
   );
